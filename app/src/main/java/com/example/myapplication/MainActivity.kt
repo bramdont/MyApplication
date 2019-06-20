@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         val rollButton : Button = findViewById(R.id.roll_button)
 
         rollButton.setOnClickListener {
-            diceRolled()
+            diceRolled ()
         }
 
         diceImage = findViewById(R.id.dice_image)
